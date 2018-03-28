@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "900461330693",
+    "firebase_url": "https://storageapp-62638.firebaseio.com",
+    "project_id": "storageapp-62638",
+    "storage_bucket": "storageapp-62638.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900461330693:android:f4e4ea406e9a7474",
+        "android_client_info": {
+          "package_name": "com.example.monic.storageapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900461330693-o4meim3u7sdkb7v1mjr8cg484hkhs9g3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.monic.storageapp",
+            "certificate_hash": "d5c70481f33251b4deca2bc1e2ee82e5fa0213c1"
+          }
+        },
+        {
+          "client_id": "900461330693-0ftsr41osudmb3qakkordh5pjqnefqpu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCLy7wuvVHcE2XrcNnCBQJQj7lKAfQgOo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900461330693-0ftsr41osudmb3qakkordh5pjqnefqpu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

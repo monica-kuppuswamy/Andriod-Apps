@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/trip_name"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.monic.tripapp.AddTrips">
+
+    <EditText
+        android:id="@+id/tripname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="Album name"
+        android:inputType="textPersonName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/tripdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tripname"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@+id/tripdate"
+        android:text="Cancel" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/places_view"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_above="@+id/place"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/addTripButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tripdate"
+        android:layout_alignTop="@+id/cancelButton"
+        android:layout_marginEnd="44dp"
+        android:text="Add Trip" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Images from camera or gallery"
+        android:layout_below="@+id/tripdate"
+        android:layout_alignEnd="@+id/tripdate"
+        android:layout_marginTop="31dp" />
+
+    <ImageView
+        android:id="@+id/datepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        app:srcCompat="@mipmap/date_picker"
+        android:layout_above="@+id/textView"
+        android:layout_alignEnd="@+id/search_place" />
+
+    <ImageView
+        android:id="@+id/addimage"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        app:srcCompat="@mipmap/add_image" />
+
+    <EditText
+        android:id="@+id/place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cancelButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginStart="56dp"
+        android:ems="10"
+        android:hint="place"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/search_place"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/place"
+        android:layout_alignEnd="@+id/cancelButton"
+        app:srcCompat="@mipmap/search_place" />
+</RelativeLayout>

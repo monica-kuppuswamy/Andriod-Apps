@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.monic.musicsearch.TrackDetails">
+
+    <ImageView
+        android:id="@+id/trackImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/default_image"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/trackImage"
+        android:layout_marginEnd="21dp"
+        android:layout_marginTop="26dp"
+        android:layout_toStartOf="@+id/trackImage"
+        android:text="Name:" />
+
+    <TextView
+        android:id="@+id/artistLabel"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nameLabel"
+        android:layout_below="@+id/nameLabel"
+        android:layout_marginTop="15dp"
+        android:text="Artist:" />
+
+    <TextView
+        android:id="@+id/trackUrl"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/artistLabel"
+        android:layout_below="@+id/artistLabel"
+        android:layout_marginTop="16dp"
+        android:text="URL: " />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/nameLabel"
+        android:layout_toEndOf="@+id/artistLabel" />
+
+    <TextView
+        android:id="@+id/artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/trackUrl"
+        android:layout_toEndOf="@+id/artistLabel" />
+
+    <TextView
+        android:id="@+id/url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/trackUrl"
+        android:layout_toEndOf="@+id/trackUrl" />
+
+    <TextView
+        android:id="@+id/similarTracksLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/trackUrl"
+        android:layout_below="@+id/trackUrl"
+        android:layout_marginTop="15dp"
+        android:text="Similar Tracks:" />
+
+    <ListView
+        android:id="@+id/similarTracks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignStart="@+id/similarTracksLabel"
+        android:layout_below="@+id/similarTracksLabel"
+        android:layout_marginTop="14dp" />
+
+</RelativeLayout>

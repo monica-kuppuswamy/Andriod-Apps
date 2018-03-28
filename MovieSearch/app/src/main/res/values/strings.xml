@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MovieSearch</string>
+    <string name="editinput" />
+    <string name="tvsearchmusic">Search Movie</string>
+    <string name="searchbutton">Search</string>
+    <string name="namedisplay">Name :</string>
+    <string name="namevalue" />
+    <string name="artistdisplay">Artist :</string>
+    <string name="artistvalue" />
+    <string name="urldisplay">URL :</string>
+    <string name="urlvalue" />
+    <string name="similartracks">Similar Tracks</string>
+    <string name="resulttracks">Results</string>
+    <string name="results">Favorites</string>
+    <string name="home">Home</string>
+    <string name="Quit">Quit</string>
+    <string name="showfav">Show Favourites</string>
+    <string name="sortRating">Sort by Rating</string>
+    <string name="sortPopularity">Sort By popularity</string>
+</resources>

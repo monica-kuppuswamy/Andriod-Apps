@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <Button
+        android:id="@+id/buttonCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="46dp"
+        android:text="@string/buttonCreate" />
+
+    <Button
+        android:id="@+id/buttonEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/buttonCreate"
+        android:layout_below="@+id/buttonCreate"
+        android:layout_marginTop="46dp"
+        android:text="@string/buttonEdit" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/buttonCreate"
+        android:layout_below="@+id/buttonEdit"
+        android:layout_marginTop="46dp"
+        android:text="@string/buttonDelete" />
+
+    <Button
+        android:id="@+id/buttonDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/buttonCreate"
+        android:layout_below="@+id/buttonDelete"
+        android:layout_marginTop="46dp"
+        android:text="@string/buttonDisplay" />
+
+    <Button
+        android:id="@+id/buttonFinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttonDisplay"
+        android:layout_below="@+id/buttonDisplay"
+        android:layout_marginTop="46dp"
+        android:text="@string/buttonFinish" />
+</RelativeLayout>

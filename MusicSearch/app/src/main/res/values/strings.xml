@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MusicSearch</string>
+    <string name="musicSearch">Search Music</string>
+    <string name="searchButton">Search</string>
+    <string name="favourites">Favourites</string>
+    <string name="nameString">Name:</string>
+    <string name="home">Home</string>
+    <string name="quit">Quit</string>
+</resources>

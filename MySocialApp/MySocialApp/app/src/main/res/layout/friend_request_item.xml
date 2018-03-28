@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        card_view:cardElevation="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/newfriendReqAddName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="13dp"
+                android:text="TextView" />
+
+            <ImageView
+                android:id="@+id/declineButton"
+                android:layout_width="62dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="340dp"
+                android:layout_marginTop="3dp"
+                card_view:srcCompat="@mipmap/decline" />
+
+            <ImageView
+                android:id="@+id/acceptButton"
+                android:layout_width="62dp"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/declineButton"
+                android:layout_alignTop="@+id/declineButton"
+                android:layout_marginLeft="290dp"
+                card_view:srcCompat="@mipmap/accept" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

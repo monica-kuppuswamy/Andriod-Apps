@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Social App</string>
+    <string name="notAMember">Not a Member?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="friendsList">Friends</string>
+    <string name="addNewFriendsList">Add New Friend</string>
+    <string name="requestPending">Request Pending</string>
+    <string name="friendsLabel">Friends</string>
+</resources>

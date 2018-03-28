@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Password Generator</string>
+    <string name="textview1">Name</string>
+    <string name="edit1" />
+    <string name="textview2">Dept</string>
+    <string name="textview3">Age</string>
+    <string name="textview4">ZIP</string>
+    <string name="edit2" />
+    <string name="edit3" />
+    <string name="edit4" />
+    <string name="textview5">Password</string>
+    <string name="button1">Generate Using Thread</string>
+    <string name="button2">Generate Using AsyncTask</string>
+    <string name="textview6" />
+    <string name="button3">CLEAR</string>
+    <string name="button4">CLOSE</string>
+</resources>

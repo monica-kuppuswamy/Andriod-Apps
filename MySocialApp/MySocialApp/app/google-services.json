@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "465062120244",
+    "firebase_url": "https://mysocialapp-b4476.firebaseio.com",
+    "project_id": "mysocialapp-b4476",
+    "storage_bucket": "mysocialapp-b4476.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465062120244:android:5d7987f858f95571",
+        "android_client_info": {
+          "package_name": "com.example.monic.mysocialapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465062120244-jd9gm9ukjvpqp97mu57v8pqh3nbivntd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.monic.mysocialapp",
+            "certificate_hash": "d5c70481f33251b4deca2bc1e2ee82e5fa0213c1"
+          }
+        },
+        {
+          "client_id": "465062120244-h8v8vh9l5ue461pr4ha3hgb1iudqrslf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPDf2EvJck7BAZ5cBvFFaTwoEydl9v7eA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465062120244-h8v8vh9l5ue461pr4ha3hgb1iudqrslf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

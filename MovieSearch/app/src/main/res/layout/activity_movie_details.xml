@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.monic.moviesearch.MovieDetails">
+
+    <ImageView
+        android:id="@+id/trackImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/default_image"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/titleLabel"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/dateLabel"
+        android:layout_below="@+id/trackImage"
+        android:layout_marginTop="39dp"
+        android:text="OverView: " />
+
+    <TextView
+        android:id="@+id/dateLabel"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="Release Date:"
+        android:layout_below="@+id/nameLabel"
+        android:layout_toStartOf="@+id/trackImage"
+        android:layout_marginTop="91dp" />
+
+    <TextView
+        android:id="@+id/ratingLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="Rating: "
+        android:layout_below="@+id/dateLabel"
+        android:layout_alignStart="@+id/dateLabel" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/nameLabel"
+        android:layout_toEndOf="@+id/dateLabel" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ratingLabel"
+        android:layout_toEndOf="@+id/dateLabel" />
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ratingLabel"
+        android:layout_toEndOf="@+id/ratingLabel" />
+
+    <TextView
+        android:id="@+id/titleLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/nameLabel"
+        android:layout_marginTop="33dp"
+        android:text="Title:" />
+
+    <TextView
+        android:id="@+id/titleValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/titleLabel"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/nameLabel" />
+
+</RelativeLayout>
